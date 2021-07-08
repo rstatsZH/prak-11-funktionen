@@ -45,7 +45,7 @@ vignettes/*.pdf
 po/*~
 
 # Solutions files
-*-solutions.Rmd
+# *-solutions.Rmd
 *-solutions.html
 *-solutions.R
 
