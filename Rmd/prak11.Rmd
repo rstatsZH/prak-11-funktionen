@@ -35,14 +35,4 @@ knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE)
 
 ```
 
-# Palmer Penguins visualisieren
-
-1. Nutze den Datensatz `penguins` aus dem R Package `{palmerpenguins}`
-2. Erstelle ein Säulendiagramm mit `geom_bar()` und der Variable 'species' auf der x-Achse und einer farblichen Unterscheidung nach Inseln
-3. Passe das Aussehen des Plots an indem du die Funktion `my_theme()` mit der Schriftart "Helvetica" hinzufügst 
-
-```{r}
-
-
-```
 
