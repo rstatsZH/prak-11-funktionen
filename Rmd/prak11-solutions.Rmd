@@ -33,6 +33,11 @@ dat <- tibble(
   result = replicate(n = 10000, roll())
 )
 
+dat_gezinkt <- tibble(
+  roll = seq(1:10000),
+  result = replicate(n = 10000, roll_gezinkt())
+)
+
 ```
 
 # Verteilung visualisieren
@@ -44,4 +49,10 @@ ggplot(dat, aes(x = result)) +
   scale_x_continuous(breaks = seq(1:12)) 
 ```
 
+```{r}
+ggplot(dat_gezinkt, aes(x = result)) +
+  geom_bar() +
+  scale_x_continuous(breaks = seq(1:12)) 
+
+```
 
